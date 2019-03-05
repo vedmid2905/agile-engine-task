@@ -1,0 +1,4 @@
+java -jar agile-engine-task.jar  "input/sample-0-origin.html" "input/sample-1-evil-gemini.html"
+java -jar agile-engine-task.jar  "input/sample-0-origin.html" "input/sample-2-container-and-clone.html"
+java -jar agile-engine-task.jar  "input/sample-0-origin.html" "input/sample-3-the-escape.html"
+java -jar agile-engine-task.jar  "input/sample-0-origin.html" "input/sample-4-the-mash.html"

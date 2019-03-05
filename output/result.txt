@@ -1,0 +1,65 @@
+sample-1-evil-gemini.html
+_________________show diff___________________________
+element path - #document|html|body|div|div|div|div|div|div|a
+-- rel=next
+++ rel=done
+-- href=#ok
+++ href=#check-and-ok
+-- id=make-everything-ok-button
+++ id=null
+
+sample-2-container-and-clone.html
+_show diff___________________________
+element path - #document|html|body|div|div|div|div|div|div|a
+-- onclick=javascript:window.okDone(); return false;
+++ onclick=javascript:window.close(); return false;
+-- rel=next
+++ rel=null
+-- href=#ok
+++ href=#incorrect-link
+-- id=make-everything-ok-button
+++ id=null
+-- class=btn btn-success
+++ class=btn btn-info
+++ style=display:none
+
+sample-3-the-escape.html
+_________________show diff___________________________
+element path - #document|html|body|div|div|div|div|div|div|a
+-- text1=Make everything OK
+++ text1=Do anything perfect
+-- text=
+                              Make everything OK
+
+++ text=
+                            Do anything perfect
+
+-- id=make-everything-ok-button
+++ id=null
+-- title=Make-Button
+++ title=Do-Link
+
+
+sample-4-the-mash.html
+_________________show diff___________________________
+element path - #document|html|body|div|div|div|div|div|div|button
+-- nodeName=a
+++ nodeName=button
+-- onclick=javascript:window.okDone(); return false;
+++ onclick=javascript:location='http://google.com';
+-- rel=next
+++ rel=null
+-- text=
+                              Make everything OK
+
+++ text=
+                            Make everything OK
+
+-- href=#ok
+++ href=null
+-- id=make-everything-ok-button
+++ id=null
+-- title=Make-Button
+++ title=null
+++ style=display:none
+
